@@ -1,87 +1,104 @@
 /* General Overrides */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-  }
-  
-  /* Navbar */
-  .navbar {
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  }
-  
-  .navbar-brand img {
-    max-height: 50px;
-  }
-  
-  /* Header */
-  header h1 {
-    color: #2c3e50;
-  }
-  
-  header p.lead {
-    color: #555;
-  }
-  
-  /* Card Styling */
-  .card {
-    border: none;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    background-color: #fff;
-  }
-  
-  /* Section Titles */
-  .card h2 {
-    font-size: 1.75rem;
-    border-bottom: 2px solid #e0e0e0;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.25rem;
-  }
-  
-  /* Skills Table */
-  .table th, .table td {
-    vertical-align: middle;
-  }
-  
-  .table thead th {
-    background-color: #343a40;
-    color: white;
-  }
-  
-  /* Lists */
-  ul {
-    list-style-type: square;
-    padding-left: 1.25rem;
-  }
-  
-  /* Form Inputs */
-  input, textarea {
-    border-radius: 6px !important;
-    border: 1px solid #ccc !important;
-  }
-  
-  /* Footer */
-  footer {
-    font-size: 0.9rem;
-    background-color: #212529;
-    color: #ccc;
-  }
-  
-  /* Responsive Image */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+/* Header */
+header h1 {
+  color: #2c3e50;
+}
+
+header p.lead {
+  color: #555;
+}
+
+/* Profile Image */
+img.rounded-circle {
+  border: 3px solid #dee2e6;
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+/* Responsive Image Scaling */
+@media (max-width: 768px) {
   img.rounded-circle {
-    border: 3px solid #dee2e6;
+    width: 120px;
+    height: 120px;
   }
-  
-  /* Buttons */
-  .btn-primary {
-    background-color: #007bff;
-    border-color: #007bff;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  .btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
-  }
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  padding: 1.5rem;
+}
+
+/* Section Titles */
+.card h2 {
+  font-size: 1.75rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Skills Table */
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.table thead th {
+  background-color: #343a40;
+  color: white;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 1.25rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Form Inputs */
+input, textarea {
+  border-radius: 6px !important;
+  border: 1px solid #ccc !important;
+}
+
+/* Footer */
+footer.text-center {
+  font-size: 0.9rem;
+  background-color: #212529;
+  color: #ccc;
+}
+
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
