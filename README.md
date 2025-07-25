@@ -7,7 +7,7 @@ A responsive, single-page web resume for **Nicholas Cross**, built using **HTML*
 ## 🚀 Live Demo
 
 [Live Site](https://nicholasjcross.com)
-Clone and run locally to preview the site.
+- OR clone and run locally to preview the site.
 
 ---
 
